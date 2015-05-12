@@ -15,7 +15,7 @@ class ipFilterTest extends Specification{
         then:
         ipFilter.netMatch(mask, ip) == true
     }
-        def "state farm ip tests"() {
+        def "complex positive tests"() {
 
         setup:
             IpFilter ipFilter = new IpFilter()
